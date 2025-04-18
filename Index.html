@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Sees Opportunity to Become Factory of the World - NOS News</title>
+    <style>
+        :root {
+            --jetbrains-dark: #2B2B2B;
+            --jetbrains-darker: #1E1E1E;
+            --jetbrains-highlight: #3C3F41;
+            --jetbrains-accent: #6897BB;
+            --jetbrains-text: #A9B7C6;
+            --jetbrains-yellow: #FFC66D;
+            --jetbrains-green: #6A8759;
+            --jetbrains-red: #BC3F3C;
+            --jetbrains-blue: #287BDE;
+        }
+        
+        body {
+            font-family: 'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+            background-color: var(--jetbrains-dark);
+            color: var(--jetbrains-text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 20px;
+        }
+        
+        .sidebar {
+            background-color: var(--jetbrains-darker);
+            border-radius: 5px;
+            padding: 15px;
+            height: fit-content;
+        }
+        
+        .main-content {
+            background-color: var(--jetbrains-darker);
+            border-radius: 5px;
+            padding: 25px;
+        }
+        
+        .header {
+            background-color: var(--jetbrains-darker);
+            padding: 15px 25px;
+            border-bottom: 1px solid var(--jetbrains-highlight);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            color: var(--jetbrains-yellow);
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .nav a {
+            color: var(--jetbrains-text);
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        
+        .nav a:hover {
+            background-color: var(--jetbrains-highlight);
+        }
+        
+        .article-meta {
+            color: var(--jetbrains-green);
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: var(--jetbrains-yellow);
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        
+        h2 {
+            color: var(--jetbrains-accent);
+            font-size: 1.4em;
+            margin-top: 30px;
+        }
+        
+        .keywords {
+            background-color: var(--jetbrains-highlight);
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .keywords h3 {
+            margin-top: 0;
+            color: var(--jetbrains-yellow);
+        }
+        
+        .keywords ul {
+            padding-left: 20px;
+        }
+        
+        .keywords li {
+            margin-bottom: 5px;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--jetbrains-highlight);
+            font-size: 0.9em;
+            color: #777;
+        }
+        
+        .tag {
+            display: inline-block;
+            background-color: var(--jetbrains-highlight);
+            color: var(--jetbrains-blue);
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+        
+        .file-tabs {
+            display: flex;
+            border-bottom: 1px solid var(--jetbrains-highlight);
+            margin-bottom: 20px;
+        }
+        
+        .file-tab {
+            padding: 8px 15px;
+            background-color: var(--jetbrains-darker);
+            border: 1px solid var(--jetbrains-highlight);
+            border-bottom: none;
+            border-radius: 5px 5px 0 0;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        
+        .file-tab.active {
+            background-color: var(--jetbrains-dark);
+            border-bottom: 1px solid var(--jetbrains-dark);
+            margin-bottom: -1px;
+        }
+        
+        .sidebar-item {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--jetbrains-highlight);
+            cursor: pointer;
+        }
+        
+        .sidebar-item:hover {
+            color: var(--jetbrains-yellow);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">NOS News</div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Sports</a>
+            <a href="#">More</a>
+            <a href="#">Search</a>
+            <a href="#">Preferences</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-item">Homepage</div>
+            <div class="sidebar-item">News</div>
+            <div class="sidebar-item">Sports</div>
+            <div class="sidebar-item">More</div>
+            <div class="sidebar-item">Search</div>
+            <div class="sidebar-item">Preferences</div>
+        </div>
+        
+        <div class="main-content">
+            <div class="file-tabs">
+                <div class="file-tab active">article.html</div>
+                <div class="file-tab">summary.md</div>
+                <div class="file-tab">keywords.json</div>
+            </div>
+            
+            <div class="article-meta">
+                <span class="tag">AFP</span>
+                <span class="tag">NOS News</span>
+                <span class="tag">• yesterday, 7:14 PM</span>
+            </div>
+            
+            <h1>India Sees Opportunity to Become Factory of the World, But Faces Its Own Obstacles</h1>
+            
+            <div class="keywords">
+                <h3>Key Insights & Summary</h3>
+                <ul>
+                    <li><strong>Opportunity:</strong> India positioned to benefit from global trade shifts</li>
+                    <li><strong>Challenges:</strong> Structural obstacles hinder manufacturing growth
+                        <ul>
+                            <li>High domestic import tariffs</li>
+                            <li>Small and undereducated workforce</li>
+                            <li>Low female labor participation (33%)</li>
+                            <li>Need for technological innovation</li>
+                        </ul>
+                    </li>
+                    <li><strong>Sectors with potential:</strong>
+                        <ul>
+                            <li>Textiles</li>
+                            <li>Metals</li>
+                            <li>Electronics (e.g., iPhone production shift)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Policy initiatives:</strong> "Make in India" program aims for:
+                        <ul>
+                            <li>100 million new jobs</li>
+                            <li>25% GDP share for manufacturing (currently 14%)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <p>Even before President Trump hit the pause button and adjusted import tariffs for 75 countries to 10%, exporters and producers in India were already seeing the benefits of higher tariffs. India's manufacturing industry is not growing nearly as fast as the government would like. Trump's tariff list suddenly made India the most interesting production option in the region. Even now that the higher tariffs have been postponed, the optimism in India has not disappeared.</p>
+            
+            <p>Economists are cautiously optimistic about India's opportunities in these turbulent times. To capitalize on them, the country must act quickly to remove persistent obstacles that are currently hindering rapid growth in industries such as textiles, metals, and electronics.</p>
+            
+            <h2>Opportunities</h2>
+            
+            <p>In the first version of Trump's tariff list, India fared relatively well with a rate of 27%. Countries like Bangladesh, Vietnam, and Taiwan faced much higher tariffs. This made India more attractive as a location to import from.</p>
+            
+            <p>According to the Times of India, in the last days of March, five planes full of iPhones flew from the Foxconn factory in Chennai to the United States. To avoid import tariffs from China, production at that factory was reportedly increased. They're now even working on Sundays.</p>
+            
+            <p>"India's biggest competitor China is being hit hard. In theory, everything made there now, at least for the American market, is up for grabs by other countries," says economist Sanjay Kathuria.</p>
+            
+            <h2>Factory of the World</h2>
+            
+            <p>As the current fifth-largest economy, India wants to be among the top three economic powers in the coming years, but to do so, it needs to produce more. More than half of the population still works in agriculture; following China's example, a shift to industry is needed to increase production.</p>
+            
+            <p>This is a challenge, according to Kathuria: "A third of the goods produced worldwide in factories come from China. To take over that industry, a country needs to have a diverse and complex system."</p>
+            
+            <p>Since taking office in 2014, Prime Minister Modi has aimed to grow the economy by expanding the manufacturing sector. With help from foreign investments and domestic investments in the high-tech manufacturing sector.</p>
+            
+            <p>'Make in India' is supposed to create one hundred million jobs and thus combat unemployment. $23 billion was invested to increase manufacturing's share to a quarter of gross domestic product. But in the past fiscal year, it was 14%, which is even 1 percentage point lower than ten years ago. "That's because labor-intensive production isn't growing," says Kathuria.</p>
+            
+            <h2>Removing Obstacles</h2>
+            
+            <p>If India wants to become a bigger part of global goods trade, it needs to address several obstacles. Starting with lowering high domestic import tariffs on items like chemicals. "To reduce tariffs on goods from the European Union, India now needs to speed up the free trade agreement it's been working on with the EU since 2013," says economist Alicia Garcia Herrero from the Bruegel Institute in Brussels.</p>
+            
+            <p>With 1.4 billion inhabitants, you wouldn't think it, but another problem for India is the size of its workforce. It's currently too small and undereducated. Kathuria: "India now has more inhabitants than China but fewer laborers because a large portion of women stay at home." According to him, the potential is enormous. "If only 33% of women work, that potential isn't being utilized."</p>
+            
+            <p>Finally, Kathuria points to the productivity of the industry, which needs to increase significantly through better use of technological innovation to become a competitive manufacturing country. Thanks to investments in infrastructure and tackling bureaucratic red tape, India is now in a better position than during President Trump's first term.</p>
+            
+            <p>Garcia Herrero thinks India will first focus on a trade agreement with the US. "But after that, the EU is certainly interesting because it brings investments in the manufacturing sector, for example from the German auto industry."</p>
+            
+            <div class="footer">
+                <p>Original article: <a href="https://nos.nl/l/2563980" style="color: var(--jetbrains-accent);">https://nos.nl/l/2563980</a></p>
+                <p>© NOS 2025 | Cookies | Terms</p>
+            </div>
+        </div>
+    </div>
+</body>
+  </html>
